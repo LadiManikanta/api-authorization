@@ -1,0 +1,15 @@
+POST http://localhost:1010/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
+GET http://localhost:1010/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjc5MTE2OTMxfQ.JckG7EOga73sOdXrFK1bkDNxkLZUZJxmm8GhuVKSNxE
+
+###
+GET http://localhost:1010/states/:stateId/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjc5MTIyNDQxfQ.r2qJx_t1NZ0qi3jFx2dLYbnilQ1U2SetJ7G_uiVsa6I
+
